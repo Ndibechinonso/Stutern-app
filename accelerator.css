@@ -15,11 +15,11 @@
     } 
 .course-btn-bg {
   background-color: rgb(26, 200, 187) !important;
-  border-color: rgb(26, 200, 187) !important;
+  border-color: rgb(26, 200, 187);
 }
 .course-btn-bg:hover {
   background-color: rgb(26, 200, 187, 0.9) !important;
-  border-color: rgb(26, 200, 187, 0.9) !important;
+  border-color: rgb(26, 200, 187, 0.9);
 }
 .log-in-btn {
   border: 3px solid rgb(255, 255, 255) !important;
@@ -65,9 +65,6 @@ h1, h2 {
 .blue-color {
   color: rgb(27, 22, 66);
 }
-.app-text-color {
-  color: rgb(230, 248, 249);
-}
 .app-header-color {
   color: rgb(210, 208, 219);
 }
@@ -105,7 +102,6 @@ h1, h2 {
 }
 .unique-card {
   background-color: rgba(0, 0, 0, 0.3) !important;
-  border: none !important;
 }
 .app-portal-bg {
   background-color: rgb(51, 46, 83) !important;
@@ -132,13 +128,10 @@ a {
   border: 1px solid rgb(74, 74, 74) !important;
   border-radius: 15px;
 }
-
 @media only screen and (max-width: 1150px) {
   .hide-link {
     display: none;
-  }
-}
-
+  }}
 @media only screen and (max-width: 991px) {
    .navbar .nav-item .dropdown-menu {
     display: block;
@@ -171,9 +164,9 @@ a {
   .faq {
     font-size: 32px;
   }}
-
   @media only screen and (max-width: 962px) {
     .hide-link {
       display: block;
-    }
-  }
+   }}
+
+  
