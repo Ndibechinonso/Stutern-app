@@ -49,9 +49,6 @@ h2 {
   font-size: 64px;
   color: #1b1642;
 }
-.card {
-  border: none;
-}
 p {
   font-size: 12px;
 }
@@ -64,7 +61,6 @@ p {
 .alumnum-color {
   color: #d2d0db !important;
 }
-
 .plain-white {
   color: rgb(255, 255, 255) !important;
 }
@@ -117,13 +113,10 @@ a {
 .rounded-img {
   border-radius: 50%;
 }
-
 @media only screen and (max-width: 1150px) {
   .hide-link {
     display: none;
-  }
-}
-
+  }}
 @media only screen and (max-width: 991px) {
   .navbar .nav-item .dropdown-menu {
     display: block;
@@ -152,9 +145,7 @@ a {
   }
   .log-in {
     display: none;
-  }
-}
-
+  }}
 @media only screen and (max-width: 962px) {
   .hero-img {
     display: none;
@@ -167,5 +158,4 @@ a {
   }
   .alumni-head {
     font-size: 40px;
-  }
-}
+  }}
